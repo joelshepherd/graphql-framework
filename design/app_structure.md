@@ -1,0 +1,21 @@
+# App Structure
+
+- project/
+  - src/
+    - generated/
+    - module/
+      - module.ts
+    - route/
+      - route.ts
+    - schema/
+      - feature/
+        - feature.gql
+        - feature.ts
+    - service/
+      - service.ts
+    - context.ts
+    - main.ts
+    - middleware.ts
+  - codegen.yml
+  - package.json
+  - tsconfig.json

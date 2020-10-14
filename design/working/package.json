@@ -1,0 +1,7 @@
+{
+  "name": "experiment",
+  "dependencies": {
+    "@types/node": "^12.12.67",
+    "knex": "^0.21.6"
+  }
+}

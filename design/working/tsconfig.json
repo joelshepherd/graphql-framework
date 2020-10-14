@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2020",
+    "lib": ["es2020", "esnext.asynciterable", "dom"],
+    "strict": true
+  },
+  "include": ["app", "lib"]
+}
