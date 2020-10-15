@@ -11,7 +11,7 @@
       - feature/
         - feature.gql
         - feature.ts
-    - service/
+    - service/ - worth having the distinction from modules?
       - service.ts
     - context.ts
     - main.ts

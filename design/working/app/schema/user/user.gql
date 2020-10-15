@@ -1,0 +1,8 @@
+extend type Query {
+  user(id: ID!): UserResult
+}
+
+type UserResult {
+  user: User
+  errors: [String!]
+}

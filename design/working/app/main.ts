@@ -1,10 +1,12 @@
+import * as modules from "./module";
+import { run } from "../lib/run";
+
 async function main() {
   run({
-    context,
+    // context,
     modules,
-    schema,
-    routes,
-    authSettings, // ?
+    // schema,
+    // routes,
   });
 }
 
